@@ -1,28 +1,70 @@
-# Angular2Starter
+# Angular 2 CLI Test
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
+Um projeto de teste desenvolvido em Angular 2, utilizando Angular CLI. Desenvolvido por Bruno Duarte Brito.
 
-## Development server
+Consiste em:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+  * [Template Website](https://github.com/brunodb3/angular2-starter)
 
-## Code scaffolding
+> Este projeto foi desenvolvido Bruno Duarte Brito mantendo em mente o código open-source.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+### Versão
+0.0.1
 
-## Build
+### Tecnologia envolvida
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Lista de tecnologias e linguagens de programação envolvidas:
 
-## Running unit tests
+* [CSS3](http://www.w3schools.com/css/css3_intro.asp)
+* [HTML5](http://www.w3schools.com/html/html5_intro.asp)
+* [NodeJS](https://nodejs.org)
+* [TypeScript](https://www.typescriptlang.org/)
+* [Angular CLI](https://cli.angular.io/)
+* [AngularJS 4.0.0](https://angular.io/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Instalação
 
-## Running end-to-end tests
+Antes de baixar o repositório, tenha certeza que sua máquina possui [NodeJS](https://nodejs.org/en/) e [Angular CLI](https://cli.angular.io/)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+Clone o repositório em sua máquina:
 
-## Further help
+```sh
+$ git clone [url-do-repositorio]
+$ cd [pasta-do-repositorio]
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Então, prepare a plataforma, baixe os módulos e abra o projeto no navegador:
+
+```sh
+$ npm install # instala todos os módulos do npm
+$ ng serve # abre um servidor local de desenvolvimento
+```
+
+Os arquivos do website estarão na pasta ```src```.
+
+### Produção
+
+Para realizar a build final do projeto (versão para produção, minificada), execute o seguinte comando:
+
+```sh
+$ ng build --prod  # realiza a build em ambiente produção do projeto
+```
+
+
+Os arquivos minificados e prontos para envio ao servidor estarão na pasta ```dist```.
+
+*Passe o argumento ```--aot``` para realizar a compilação [ahead-of-time](https://angular.io/docs/ts/latest/cookbook/aot-compiler.html)*
+
+Para abrir um servidor local em modo produção, basta executar:
+
+```sh
+$ ng serve --prod
+```
+
+*Para saber mais sobre o processo de build utilizado, visite [Angular CLI](https://cli.angular.io/)*
+
+### Demo
+
+Estou deixando uma demo do projeto rodando em um servidor Firebase, você pode acessá-la por [aqui](https://angular2-starter-6867f.firebaseapp.com/)
+
+**Bruno Duarte Brito - 2017**
