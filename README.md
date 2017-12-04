@@ -2,6 +2,10 @@
 
 Um projeto de teste desenvolvido em Angular 2, utilizando Angular CLI. Desenvolvido por Bruno Duarte Brito.
 
+> **This repo has been deprecated. Check out my newer [ngx-seed](https://github.com/brunodb3/ngx-seed)**
+
+> **Este repositório caiu em desuso. Confira meu novo [ngx-seed](https://github.com/brunodb3/ngx-seed)**
+
 Consiste em:
 
   * [Template Website](https://github.com/brunodb3/angular2-starter)
